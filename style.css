@@ -30,11 +30,10 @@ body{
 
 }
 .container :hover{
-  cursor: pointer
-  ;
+  cursor: pointer;
 }
 .container:hover .Html_div{
-  color:hsl(47, 88%, 63%); ;
+  color:hsl(47, 88%, 63%); 
 }
 .container img{
   border-radius: 10px;
@@ -67,9 +66,9 @@ body{
 
   
 }
-.ppp_container{
+.ppp{
   font-family: 'Figtree' ;
-  color: Gray 500: hsl(0, 0%, 42%);
+  color: rgb(107, 107, 107);
 }
 .img_greg img{
   width: 32px;
@@ -91,7 +90,9 @@ body{
     font-weight: bold;
   }
 
-.jumba{font-family: 'Figtree' ;
-  color: Gray 500: hsl(0, 0%, 42%);}
+.jumba_p{font-family: 'Figtree' ;
+  color: rgb(107, 107, 107);
+  
+}
 
  
