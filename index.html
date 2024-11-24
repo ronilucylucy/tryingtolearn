@@ -1,98 +1,39 @@
-body{
-  background-color:hsl(47, 88%, 63%);
-  display: grid;
-  place-items: center;    /* Центрирование по вертикали и горизонтали */
-  height: 100vh;          /* Высота на весь экран */
-  margin: 0;   
-  font-size: 16px;
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Site</title>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        class="img_container"
+        src="illustration-article.svg"
+        alt="description"
+      />
 
-@font-face {
-  font-family: "Figtree";
-  src: url(fonts/Figtree-VariableFont_wght.ttf);
-}
-.container{
-  background-color: white;
-  width: 420px;
-  height: 600px;
-  
-  
-  border-radius: 20px;
-  padding-left: 20px;
-  
-  border: black solid 1px;
-  
-  box-shadow: 10px 10px 0px rgba(0, 0, 0, 100);
-  cursor: pointer;
-  
-  
-  
+      <div class="learning_button">
+        <h4>Learning</h4>
+      </div>
+      <div class="ppp_container">
+        <p class="ppp">Published 21 Dec 2023</p>
+      </div>
 
-}
-.container :hover{
-  cursor: pointer;
-}
-.container:hover .Html_div{
-  color:hsl(47, 88%, 63%); 
-}
-.container img{
-  border-radius: 10px;
-  width: 400px;
-  margin-top: 25px;
-  
-  
-  
-  
-
-  
-}
-.Html_div{
-  font-weight: bold;
-}
-
-
-.learning_button{
-  width: 80px;
-  height: 30px;
-  background-color:hsl(47, 88%, 63%);
-  text-align: center;
-  
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 25px;
-  
-
-  
-}
-.ppp{
-  font-family: 'Figtree' ;
-  color: rgb(107, 107, 107);
-}
-.img_greg img{
-  width: 32px;
-  height: 32px;
-  
-  
-  
-  
- 
-}
-.img_greg { display: flex; 
-  align-items: center;
-  gap: 10px;
-  vertical-align: middle;
-  margin: 0;}
-  
-  .img_greg p {
-    margin-top: 38px;
-    font-weight: bold;
-  }
-
-.jumba_p{font-family: 'Figtree' ;
-  color: rgb(107, 107, 107);
-  
-}
-
- 
+      <div class="Html_div">
+        <h2>HTML&CSS foundations</h2>
+      </div>
+      <div class="jumba">
+        <p class="jumba_p">
+          These languages are the backbone of every <br />website, defining
+          structure, content, and <br />presentation
+        </p>
+      </div>
+      <div class="img_greg">
+        <img src="image-avatar.webp" alt="greg hooper" />
+        <p>Greg Hooper</p>
+      </div>
+    </div>
+  </body>
+</html>
